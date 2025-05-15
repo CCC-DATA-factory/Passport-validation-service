@@ -1,0 +1,20 @@
+# Core dependencies
+fastapi==0.110.0
+uvicorn==0.29.0
+python-multipart==0.0.9
+
+# Image processing
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+
+# MRZ processing
+passport-eye==0.4.3
+
+# OCR
+pytesseract==0.3.10
+
+# Environment management
+python-dotenv==1.0.1
+
+# ASGI server (production)
+gunicorn==21.2.0
